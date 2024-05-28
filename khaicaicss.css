@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0; /* Màu nền nhạt */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333; /* Màu tiêu đề */
+}
+
+ul {
+  list-style: none; /* Xóa dấu chấm mặc định */
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li::before {
+  content: "•"; /* Biểu tượng điểm đánh dấu */
+  margin-right: 10px;
+  color: #4CAF50; /* Màu biểu tượng */
+}
+
+li p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Màu nền nội dung */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bóng đổ */
+}
+
+.image {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  height: 150px;
+  object-fit: cover; /* Giữ tỷ lệ ảnh */
+  border-radius: 5px; /* Bo tròn ảnh */
+}
+
+.content {
+  padding: 0 20px;
+}
+
+.clear {
+  clear: both; /* Xóa float */
+}
+
+/* Màu sắc cho các phần khác nhau */
+.location {
+  color: #007bff; /* Xanh dương */
+}
+
+.coordinates {
+  color: #28a745; /* Xanh lá */
+}
+
+.description {
+  color: #ffc107; /* Vàng */
+}
+
+.accommodation {
+  color: #dc3545; /* Đỏ */
+}
+
+.note {
+  color: #808080; /* Xám */
+}

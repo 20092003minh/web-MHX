@@ -1,0 +1,100 @@
+hi{
+    text-align: center;
+    /*display: block;*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("./anhxa.jpg") ;
+    background-size: cover; /* Bao phủ toàn bộ màn hình */
+  }
+  main{
+    background-color: #f4f4f4;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-right: 33%;
+    
+  }
+  ul {
+    list-style-type: none; /* Xóa dấu đánh dấu mặc định */
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0em;
+  }
+  ul > li{
+    padding: 11px;
+    text-align: center;
+    background-color: #919191;
+    border-radius: 3em;
+    padding: 4;
+    margin:1em 0;
+    align-items:center;
+    display: inline;
+    display: inline-block;
+}
+ul > li> a{
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+  header {
+    
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+  } 
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  img {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    border-radius: 50%;
+  }
+  
+button{
+    display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2em; /* Bo tròn góc */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #4CAF50; /* Xanh lá */
+    color: white;
+}
+
+  
+button:hover {
+    background-color: #3e8e41; /* Xanh lá đậm */
+  }
+  
+
+  .button-large {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  
+ 
+  .button-outline {
+    border: 2px solid #4CAF50; 
+    color: #4CAF50;
+  }
+  
+ 
+  .button-outline:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

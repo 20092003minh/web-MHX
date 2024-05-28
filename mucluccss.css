@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  
+    background-image: url("./anhxa.jpg") ;
+    background-size: cover; /* Bao phủ toàn bộ màn hình */
+
+  
+}
+.off-canvas-sidebar {
+    background-attachment: fixed; /* Hình ảnh nền cố định */
+  }
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Khoảng cách giữa các button */
+}
+
+button {
+    border: rgb(103, 100, 100);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  color: rgb(230, 224, 67);
+}
+
+
+.button-primary {
+  background-color: #4CAF50; /* Xanh lá */
+  color: rgb(233, 223, 104);
+}
+
+.button-secondary {
+  background-color: #FF7F50; /* Cam */
+  color: rgb(101, 101, 101);
+}
+
+.button-tertiary {
+  background-color: #2196F3; /* Xanh dương */
+  color: rgb(142, 141, 141);
+}
+
+/* Tùy chỉnh kích thước button */
+.button-large {
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+.button-small {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* Tùy chỉnh kiểu dáng button */
+.button-rounded {
+  border-radius: 25px; /* Bo tròn góc nhiều hơn */
+}
+
+.button-outline {
+  border: 2px solid #4ac5ea;
+  color: #333;
+}
